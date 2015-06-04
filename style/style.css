@@ -1,0 +1,38 @@
+body {
+    /*background-color: aliceblue;*/
+    /*background-image: url("butterfly.gif");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed; *//*Изображение блокировано (не прокручивается вместе со страницей)*/
+    /*background-position: right bottom; *//*фоновое изображение располагается в правом нижнем углу экрана*/
+
+    /*того же результата можно достичь одной строкой кода:*/
+    background: aliceblue url("butterfly.gif") no-repeat fixed right bottom;
+    /*Порядок свойств этого элемента таков:*/
+    /*[background-color] | [background-image] | [background-repeat] | [background-attachment] | [background-position]*/
+}
+
+h1 {
+    color: aqua;
+    background-color: chartreuse;
+}
+
+h2 {
+    font: italic bold 20px arial, sans-serif;
+    /*Порядок свойств font таков:*/
+    /*font-style | font-variant | font-weight | font-size | font-family*/
+}
+
+h3 {
+    text-indent: 30px; /*Отступы [text-indent]*/
+    text-align: center; /*Выравнивание текста [text-align]*/
+    text-decoration: underline; /*Декоративный вариант*/
+    letter-spacing: 6px; /*Интервал между буквами*/
+}
+
+a:hover {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkred;
+}
+a.whitwine
